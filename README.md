@@ -25,7 +25,7 @@ Rode a aplicação dando um:
 docker run -p 3000:3000 -d <nome_do_container> 
 ```
 ### Passo 5
-Abra um navegador e digite na url localhost:3000 para ver a aplicação no ar.
+Abra um navegador e digite na url _<b>localhost:3000</b>_ para ver a aplicação no ar.
 
 ### Passo 6
 Para finalizar e parar a aplicação rode o comando abaixo para ver os containers em execução na sua máquina.
@@ -34,5 +34,5 @@ docker ps
 ```
 Olhe o ID do container Node e rode o seguinte comando para dar um stop nela.
 ```
-docker stop <id_container>.
+docker stop <id_container>
 ```
